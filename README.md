@@ -23,7 +23,8 @@ These metrics should be compared on calendar base year, month, day. -I havent go
 As I mention project is quite simple, some of the skills shown in this project are field parameters, card highlighting when same measure is clicked, UI appearance... Usage of field parameters was ment to use the same visual interface to measure different metrics. Of course we can apply drillthough to another page and use tooltips for additional information.
 ## Project Steps
 - Created a new workspace named Fatjan Paloja Fabric_Test and select a trial of Microsoft Fabric for 60 day.
- ![](Workspace_settings.jpg) 
+ ![](Workspace_settings.jpg)
+------
 - Created a lake house
 - Add new Data pipeline - TaxiDataPipeline_Directlake
 - Connected to Sample Taxi Data which is more than 2 gb file
