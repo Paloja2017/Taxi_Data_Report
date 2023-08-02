@@ -37,13 +37,15 @@ As I mention project is quite simple, some of the skills shown in this project a
 - Load to Delta table data preview
   ![](DeltaTablePreview.png)
 
+- Link a Pipeline to Outlook and Teams - on data refresh succes they sent a mesage you write for example "Data is refreshed succesfully"
+  ![](PipelinetoTeams.png)
+
 - Data Transformation
 - Created a View and added transformed date time column to date only
   ![](SQl_endpoint.png)
 
-- Modeling
-- Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct lake and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
-   ![](DataModel.png)
+- Modeling Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct lake and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
+![](DataModel.png)
 - Analysis & visualizations
 - Conclusion and recommendation
 
