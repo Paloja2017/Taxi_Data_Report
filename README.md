@@ -1,6 +1,6 @@
 # Taxi Travel Power BI Report
 
-![](Taxi.jpg)
+![](TaxiPhoto.jpg)
 
 ## Introduction
 
