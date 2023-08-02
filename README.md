@@ -1,2 +1,11 @@
 # Taxi_Data_Report
-Report for protfolio
+- Introduction
+- Problem statement
+- Requirements
+- Skills demonstrated
+- Data sourcing
+- Data Transformation
+- Modeling
+- Analysis & visualizations
+- Conclusion and recommendation
+
