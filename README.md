@@ -20,7 +20,16 @@ Simulate the client Taxi Company requirement of measuring these metrics:
 These metrics should be compared on calendar base year, month, day. -I havent gone to deeper analysis of hour, minute, most frequent hours of the day-
   
 ## Skills demonstrated
-As I mention project is quite simple, some of the skills shown in this project are field parameters, card highlighting when same measure is clicked, UI appearance.. Usage of field parameters was ment to use the same visual interface to measure different metrics. Of course we can apply drillthough to another page and use tooltips for additional information.
+As I mention project is quite simple, some of the skills shown in this project are field parameters, card highlighting when same measure is clicked, UI appearance... Usage of field parameters was ment to use the same visual interface to measure different metrics. Of course we can apply drillthough to another page and use tooltips for additional information.
+## Project Steps
+- Created a new workspace named Fatjan Paloja Fabric_Test and select a trial of Microsoft Fabric for 60 day.
+- Created a lake house
+- Add new Data pipeline - TaxiDataPipeline_Directlake
+- Connected to Sample Taxi Data which is more than 2 gb file
+
+
+
+
 - Data sourcing
 - Data Transformation
 - Modeling
