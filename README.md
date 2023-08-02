@@ -1,19 +1,19 @@
-# Taxi Travel Power BI Report
+# **Taxi Travel Power BI Report**
 
 ![](TaxiPhoto.jpg)
 
 ## Introduction
 
-Microsoft last couple of month has released a public preview of Microsoft Fabric. Me as Power BI developer and tech enthusiast I started to experiment with it and I thought maybe it is very good to document as the project on GitHub also for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows and the connection as Direct lake.
+Microsoft last couple of month has released a public preview of **Microsoft Fabric**. Me as Power BI developer and tech enthusiast I started to experiment with it and I thought maybe it is very good to document as the project on GitHub also for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows and the connection as Direct lake.
 
 ## Problem statement
 
 Simulation:
-Fictive Taxi company want to implement new Microsoft Fabric capabilities to their BI analysis. They want real time data analysis so we have agreed to use Microsoft Direct Lake as storage in Power BI.
+Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Microsoft Direct Lake as storage in Power BI.
   
 ## Requirements
 
-Simulate the client Taxi Company requirement of measuring these metrics:
+Simulate the client **Taxi** Company requirement of measuring these metrics:
 - Fare Amount Value
 - Total Amount Value
 - Tip Amount Value
