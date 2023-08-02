@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Microsoft last couple of month has released a public preview of Microsoft Fabric. Me as tech enthusiast and Power BI developer I started to experiment with it and I thought maybe it is very good to document as the project on GitHub also for my protfolio. This was the starting point, the project was quite simple the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows and the connection as Direct lake.
+Microsoft last couple of month has released a public preview of Microsoft Fabric. Me as Power BI developer and tech enthusiast I started to experiment with it and I thought maybe it is very good to document as the project on GitHub also for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows and the connection as Direct lake.
 
 ## Problem statement
 
@@ -31,16 +31,19 @@ As I mention project is quite simple, some of the skills shown in this project a
  ![](Workspace_settings.png)
 
 - Created a lake house
-- ![](LakeHouse.png)
-- Add new Data pipeline - TaxiDataPipeline_Directlake
-- Connected to Sample Taxi Data which is more than 2 gb file
+ ![](LakeHouse.png)
+- Data source - Add new Data pipeline - TaxiDataPipeline_Directlake
+![](PipelineData.png)
+- Load to Delta table data preview
+  ![](DeltaTablePreview.png)
 
-
-
-
-- Data sourcing
 - Data Transformation
+- Created a View and added transformed date time column to date only
+  ![](SQl_endpoint.png)
+
 - Modeling
+- Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct lake and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
+   ![](DataModel.png)
 - Analysis & visualizations
 - Conclusion and recommendation
 
