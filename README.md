@@ -1,4 +1,5 @@
 # Taxi Travel Power BI Report
+![](Taxi.jpg)
 - Introduction
 - Problem statement
 - Requirements
