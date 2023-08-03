@@ -115,7 +115,7 @@ As we see from data the year 2015 has maximum trips compared to other years with
 ![](TripsAnalysis.png)
  
 For seven years of analysis NYC Taxis Company had more than 1.90 Bn fare amount in total
-|Year|FareAmount $|              
+|Year|Fare Amount $|              
 |:----------|:----------|
 |2013   |$ 30,038,429.24|
 |2014  |$ 395,246,914.90|
@@ -131,7 +131,7 @@ As we see from data the year 2015 has maximum fare Amount compared to other year
 
 
 For seven years of analysis NYC Taxis Company has in total $ 12.42 average dollar per trip
-|Year|FareAmount $|              
+|Year|Average Amount $|              
 |:----------|:----------|
 |2013   |$ 12.40|
 |2014   |$ 12.48|
@@ -144,6 +144,22 @@ For seven years of analysis NYC Taxis Company has in total $ 12.42 average dolla
 As we see from data the year 2019 has greater average per trip compared to other years with $ 13.67 also maximum average per trip for year month was Nov2018 with $ 14.42 dollars/Trip
 <br /> 
 ![](AverageTrips.png)
+
+
+For seven years of analysis NYC Taxis Company has in total $ 175.42 Milion dollar tips
+|Year|Tips Amount $|              
+|:----------|:----------|
+|2013   |$ 2,138,815.32|
+|2014   |$ 34,421,748,72|
+|2015   |$ 46,718,194.34|
+|2016   |$ 40,763,033.08|
+|2017   |$ 26,995,782,82|
+|2018   |$ 17,910,009.32|
+|2019   |$ 6,476,652.96|
+   
+As we see from data the year 2015 has maximum Tips in dollars compared to other years with $ 46,718,194,34 also maximum ayear month was May2015 with $ 4,572,791.96 dollars.
+<br /> 
+![](Tips.png)
 
 
 Interact with report 
