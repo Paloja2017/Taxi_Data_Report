@@ -54,7 +54,7 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   <br />
 - Data Transformation
-- Created a View and added transformed date time column to date only
+- Created a View and added new date only column
   <br />
   <br />
   ![](SQl_endpoint.png)
