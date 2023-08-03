@@ -92,7 +92,7 @@ As I mention project is quite simple, some of the skills shown in this project a
 ## Visualizations:
 
   The report is single paged and intended for simplicity of usage. We are measuring five metrics: Fare Amount, Average Trips Amount, Number of Trips, Tip Amount and Total Amount in single page - you can change the metrics in slicer down right also we have a slicer down left for years you want to analyze.
-When you click a particular metrics slicer down right that BAN number which is measured is highlighted.
+When you click a particular metrics slicer down right that BAN number which is measured is highlighted. For the color I have chosed #7B88BF to be in harmony with the fictional company logo.
   <br />
 
   ![](GifTest.gif)
@@ -125,9 +125,26 @@ For seven years of analysis NYC Taxis Company had more than 1.90 Bn fare amount 
 |2018  |$ 236,515,106.90|
 |2019  |$ 90,187,147.06|
    
-As we see from data the year 2015 has maximum fare Amount compared to other years with $ 474,342,003.48 also maximum fare amount per month was in May2015 with 45,470,410.92 trips
+As we see from data the year 2015 has maximum fare Amount compared to other years with $ 474,342,003.48 also maximum fare amount per month was in May2015 with $ 45,470,410.92 dollars
 <br /> 
 ![](FareAmount.png)
+
+
+For seven years of analysis NYC Taxis Company has in total $ 12.42 average dollar per trip
+|Year|FareAmount $|              
+|:----------|:----------|
+|2013   |$ 12.40|
+|2014   |$ 12.48|
+|2015   |$ 12.33|
+|2016   |$ 12.14|
+|2017   |$ 11.79|
+|2018   |$ 13.43|
+|2019   |$ 13.67|
+   
+As we see from data the year 2019 has greater average per trip compared to other years with $ 13.67 also maximum average per trip for year month was Nov2018 with $ 14.42 dollars/Trip
+<br /> 
+![](AverageTrips.png)
+
 
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
