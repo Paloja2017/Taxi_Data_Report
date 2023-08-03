@@ -126,6 +126,8 @@ For seven years of analysis NYC Taxis Company had more than 1.90 Bn fare amount 
 |2019  |$ 90,187,147.06|
    
 As we see from data the year 2015 has maximum fare Amount compared to other years with $ 474,342,003.48 also maximum fare amount per month was in May2015 with 45,470,410.92 trips
+<br /> 
+![](FareAmount.png)
 
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
