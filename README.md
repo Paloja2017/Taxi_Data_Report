@@ -93,10 +93,12 @@ As I mention project is quite simple, some of the skills shown in this project a
 When you click a particular metrics slicer down right that BAN number which is measured is highlighted.
   <br />
 
-   ![](Report.png)
+  ![](GifTest.gif)
     <br />
+    
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
+ 
 - Conclusion and recommendation
 
