@@ -1,7 +1,13 @@
-# **Taxi Travel Power BI Report**
+
+# **NYC Fast Taxis Company**
+## **NYC Fast Taxis Company Power BI Report**
 
 ![](TaxiPhoto.jpg)
 ---
+**Document Author**                                                   
+|Date |Author|Version|Role|                   
+|:----|:-----|:------------|:----|                                        
+|08/01/2023|Fatjan Paloja| 1.0| Power BI Consultant 
 ## Introduction
 
 Microsoft last couple of month has released a public preview of **Microsoft Fabric**. Me as Power BI developer and tech enthusiast I started to experiment with it and I thought maybe it is very good to document as the project on GitHub for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows, the connection as Direct lake and PowerBI desktop mixed mode (Direct query to AS and Import)
