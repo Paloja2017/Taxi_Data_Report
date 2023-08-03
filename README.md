@@ -98,9 +98,20 @@ When you click a particular metrics slicer down right that BAN number which is m
   ![](GifTest.gif)
     <br />
  ## Analysis:
+ For seven years of analysis NYC Taxis Company had more than 153 milion trips in total
+ - 2013 =  2,421,622
+ - 2014 = 31,674,002
+ - 2015 = 38,467,530
+ - 2016 = 32,771,064
+ - 2017 = 23,481,028
+ - 2018 = 17,613,798
+ - 2019 =  6,595,934
+    <br /> 
+  As we see from data the year 2015 has maximum trips compared to other years with 38,467,530 also maximum transaction per month was in May2015 with 
+3,573,696 trips
 ![](TripsAnalysis.png)
  
-<br />
+
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
