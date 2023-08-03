@@ -98,7 +98,5 @@ When you click a particular metrics slicer down right that BAN number which is m
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
-  ![](Gif.gif)
-
 - Conclusion and recommendation
 
