@@ -53,8 +53,7 @@ As I mention project is quite simple, some of the skills shown in this project a
   ![](PipelinetoTeams.png)
   <br />
   <br />
-- Data Transformation
-- Created a View and added new date only column
+- On SQL Endpoint I created a View and added new date only column
   <br />
   <br />
   ![](SQl_endpoint.png)
