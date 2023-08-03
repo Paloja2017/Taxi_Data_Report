@@ -1,7 +1,13 @@
-# **Taxi Travel Power BI Report**
+
+# **NYC Fast Taxis Company**
+## **NYC Fast Taxis Company Power BI Report**
 
 ![](TaxiPhoto.jpg)
 ---
+**Document Author**                                                   
+|Date |Author|Version|Role|                   
+|:----|:-----|:------------|:----|                                        
+|08/01/2023|Fatjan Paloja| 1.0| Power BI Consultant 
 ## Introduction
 
 Microsoft last couple of month has released a public preview of **Microsoft Fabric**. Me as Power BI developer and tech enthusiast I started to experiment with it and I thought maybe it is very good to document as the project on GitHub for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows, the connection as Direct lake and PowerBI desktop mixed mode (Direct query to AS and Import)
@@ -38,7 +44,9 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   <br />
  ![](LakeHouse.png)
-- Data source - Add new Data pipeline - TaxiDataPipeline_Directlake
+- Data source
+  <br />
+  Add new Data pipeline - TaxiDataPipeline_Directlake
   <br />
   <br />
 ![](PipelineData.png)
@@ -65,11 +73,20 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   <br />
 
-- Modeling Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
+- Modeling
+  <br />
+  Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
   <br />
   <br />
-
 ![](DataModel.png)
+
+- Measures, Calculated Table and Field Parameter
+  <br />
+  I have used VertiPaq Analyzer to list the measures for showing here. The procedure is open the DaxStudio in Power BI external tools, in advanced tab export metrics, then connect Vertipaq Analyzer to connect to .vpax file.
+  <br />
+  <br />
+  ![](Measures.png)
+
 - Analysis & visualizations
 - Conclusion and recommendation
 
