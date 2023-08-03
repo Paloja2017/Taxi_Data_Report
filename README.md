@@ -183,5 +183,7 @@ Interact with report
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
  
-- Conclusion and recommendation
+## Conclusion
+ <br />
+This project as I mentioned above was only to experiment with Microsoft Fabric also to showcase some of power bi attributes. 
 
