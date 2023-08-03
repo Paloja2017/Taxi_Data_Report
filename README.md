@@ -72,8 +72,15 @@ As I mention project is quite simple, some of the skills shown in this project a
   Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
   <br />
   <br />
-
 ![](DataModel.png)
+
+- Measures, Calculated Table and Field Parameter
+  <br />
+  I have used VertiPaq Analyzer to list the measures for showing here. The procedure is open the DaxStudio in Power BI external tools, in advanced tab export metrics, then connect Vertipaq Analyzer to connect to .vpax file.
+  <br />
+  <br />
+  ![](Measures.png)
+
 - Analysis & visualizations
 - Conclusion and recommendation
 
