@@ -11,7 +11,7 @@ Microsoft last couple of month has released a public preview of **Microsoft Fabr
 ## Statement
 
 Simulation:
-Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Microsoft Direct Lake as storage in Power BI.
+Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Direct Query over AS and import as storage mode in Power BI.
   
 ## BI Requirements
 
@@ -22,7 +22,7 @@ Simulate the client **Taxi** Company requirement of measuring these metrics:
 - Count of trips
 - Average Trips Amount
 
-These metrics should be compared on calendar base year, month, day. -I havent gone to deeper analysis of hour, minute, most frequent hours of the day-
+These metrics should be compared on calendar base year, month, day. _I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
   
 ## Skills demonstrated
 
