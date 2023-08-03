@@ -28,7 +28,9 @@ Simulate the client **Taxi** Company requirement of measuring these metrics:
 - Count of trips
 - Average Trips Amount
 
-These metrics should be compared on calendar base year, month, day. _I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
+These metrics should be compared on calendar base year, month, day.
+<br />
+_I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
   
 ## Skills demonstrated
 
@@ -87,16 +89,21 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   ![](Measures.png)
 
-## Analysis & visualizations
+## Visualizations:
 
   The report is single paged and intended for simplicity of usage. We are measuring five metrics: Fare Amount, Average Trips Amount, Number of Trips, Tip Amount and Total Amount in single page - you can change the metrics in slicer down right also we have a slicer down left for years you want to analyze.
 When you click a particular metrics slicer down right that BAN number which is measured is highlighted.
   <br />
 
-   ![](Report.png)
+  ![](GifTest.gif)
     <br />
+ ## Analysis:
+![](TripsAnalysis.png)
+ 
+<br />
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
+ 
 - Conclusion and recommendation
 
