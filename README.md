@@ -89,7 +89,7 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   ![](Measures.png)
 
-## Analysis & visualizations
+## Visualizations & Analysis
 
   The report is single paged and intended for simplicity of usage. We are measuring five metrics: Fare Amount, Average Trips Amount, Number of Trips, Tip Amount and Total Amount in single page - you can change the metrics in slicer down right also we have a slicer down left for years you want to analyze.
 When you click a particular metrics slicer down right that BAN number which is measured is highlighted.
