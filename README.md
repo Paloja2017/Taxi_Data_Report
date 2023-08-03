@@ -38,7 +38,9 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   <br />
  ![](LakeHouse.png)
-- Data source - Add new Data pipeline - TaxiDataPipeline_Directlake
+- Data source
+  <br />
+  Add new Data pipeline - TaxiDataPipeline_Directlake
   <br />
   <br />
 ![](PipelineData.png)
@@ -65,7 +67,9 @@ As I mention project is quite simple, some of the skills shown in this project a
   <br />
   <br />
 
-- Modeling Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
+- Modeling
+  <br />
+  Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
   <br />
   <br />
 
