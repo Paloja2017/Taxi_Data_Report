@@ -98,19 +98,36 @@ When you click a particular metrics slicer down right that BAN number which is m
   ![](GifTest.gif)
     <br />
  ## Analysis:
- For seven years of analysis NYC Taxis Company had more than 153 milion trips in total
- - 2013 =  2,421,622
- - 2014 = 31,674,002
- - 2015 = 38,467,530
- - 2016 = 32,771,064
- - 2017 = 23,481,028
- - 2018 = 17,613,798
- - 2019 =  6,595,934
-    <br /> 
-  As we see from data the year 2015 has maximum trips compared to other years with 38,467,530 also maximum transaction per month was in May2015 with 
+For seven years of analysis NYC Taxis Company had more than 153 milion trips in total
+|Year|Trips_#|              
+|:----------|:----------|
+|2013   |2,421,622|
+|2014  |31,674,002|
+|2015  |38,467,530|
+|2016  |32,771,064|
+|2017  |23,481,028|
+|2018  |17,613,798|
+|2019   |6,595,934|
+   
+As we see from data the year 2015 has maximum trips compared to other years with 38,467,530 also maximum transaction per month was in May2015 with 
 3,573,696 trips
+<br /> 
 ![](TripsAnalysis.png)
  
+For seven years of analysis NYC Taxis Company had more than 1.90 Bn fare amount in total
+|Year|FareAmount $|              
+|:----------|:----------|
+|2013   |$ 30,038,429.24|
+|2014  |$ 395,246,914.90|
+|2015  |$ 474,342,003.48|
+|2016  |$ 397,734,160.50|
+|2017  |$ 276,958,721,38|
+|2018  |$ 236,515,106.90|
+|2019  |$ 90,187,147.06|
+   
+As we see from data the year 2015 has maximum fare Amount compared to other years with $ 474,342,003.48 also maximum fare amount per month was in May2015 with 45,470,410.92 trips
+<br /> 
+![](FareAmount.png)
 
 Interact with report 
 ![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
