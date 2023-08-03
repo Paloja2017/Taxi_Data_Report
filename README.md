@@ -28,7 +28,9 @@ Simulate the client **Taxi** Company requirement of measuring these metrics:
 - Count of trips
 - Average Trips Amount
 
-These metrics should be compared on calendar base year, month, day. _I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
+These metrics should be compared on calendar base year, month, day.
+<br />
+_I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
   
 ## Skills demonstrated
 
