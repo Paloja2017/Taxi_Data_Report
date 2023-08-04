@@ -154,7 +154,7 @@ For seven years of analysis NYC Taxis Company has in total $ 175.42 Milion dolla
 |2015   |$ 46,718,194.34|
 |2016   |$ 40,763,033.08|
 |2017   |$ 26,995,782,82|
-|2018   |$ 17,910,009.32|
+|2018   |$ 17,910,008.32|
 |2019   |$ 6,476,652.96|
    
 As we see from data the year 2015 has maximum Tips in dollars compared to other years with $ 46,718,194.34 also maximum ayear month was in May2015 with $ 4,572,791.96 dollars.
@@ -178,9 +178,7 @@ As we see from data the year 2015 has maximum amount in dollars compared to othe
 ![](Total.png)
 
 
-
-Interact with report 
-![Taxis Company](https://img.shields.io/badge/Taxis%20Company-Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
+![Taxis Company](https://img.shields.io/badge/Interact%20with%20Report-Taxis%20Power%20BI%20Report-ffbe0b?labelColor=7B88BF&style=flat&logo=PowerBI&logoColor=Yellow)
 
  
 ## Conclusion
