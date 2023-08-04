@@ -184,5 +184,5 @@ As we see from data the year 2015 has maximum amount in dollars compared to othe
 ## Conclusion
  <br />
 As we see from the data, trips reached maximum in 2015 and from there we have a decline with every year that passes. We have to analyze also some other data from other data sources and getting more and deeper insights about Sales Taxi Company.
-This project as I mentioned above was only to experiment with Microsoft Fabric also to showcase some of Power BI cappabilities. 
+This project as I mentioned above was only to experiment with Microsoft Fabric also to showcase some of Power BI capabilities. 
 
