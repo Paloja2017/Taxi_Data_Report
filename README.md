@@ -10,34 +10,34 @@
 |08/01/2023|Fatjan Paloja| 1.0| Power BI Consultant 
 ## Introduction
 
-Microsoft last couple of month has released a public preview of **Microsoft Fabric**. Me as Power BI developer and data analyst I started to experiment with it and I thought maybe it is very good to document it as the project on GitHub for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was Taxi Data as sample data which is almost 160 milion rows, the connection as Direct lake and PowerBI desktop mixed mode (Direct query to AS and Import)
+Microsoft last couple of month has released a public preview of **Microsoft Fabric**. I as Power BI developer and data analyst started to experiment with it and thought maybe it would be good to document the project on GitHub for my protfolio. This was the starting point, the project was quite simple, the main thing I wanted to experiment with was using the NYC Taxi Data database as sample data, this database has almost 160 milion rows, the connection as Direct Lake and PowerBI desktop mixed mode (Direct query to AS and Import)
 
 **_Datasets, model and report are not representing any real company or real data_**
 
 ## Statement
 
-Simulation:
-Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Lake House Delta tables as Direct lake and PBI desktop Direct Query over AS and import as storage mode in Power BI.
+Prompt:
+Fictive **Taxi** company wants to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Lake House Delta tables as Direct Lake and PBI desktop Direct Query over AS and import as storage mode in Power BI.
   
 ## BI Requirements
 
-Simulate the client **Taxi** Company requirement of measuring these metrics:
+Simulate the client **Taxi** Company requirements of measuring these metrics:
 - Fare Amount Value
 - Total Amount Value
 - Tip Amount Value
 - Count of trips
 - Average Trips Amount
 
-These metrics should be compared on calendar base year, month, day.
+These metrics will be compared on calendar base year, month, day.
 <br />
 _I havent gone to deeper analysis of hour, minute, most frequent hours of the day_
   
 ## Skills demonstrated
 
-As I mention project is quite simple, some of the skills shown in this project are field parameters, card highlighting when same measure is clicked, UI appearance... Usage of field parameters was ment to use the same visual interface to measure different metrics. Of course we can apply drillthough to another page and use tooltips for additional information.
+As I mentioned the project is quite simple, some of the skills shown in this project are field parameters, card highlighting when same measure is clicked, UI appearance... Usage of field parameters was meant to use the same visual interface to measure different metrics. Of course we can apply drillthough to another page and use tooltips for additional information.
 ## Project Steps
 
-- Created a new workspace named Fatjan Paloja Fabric_Test and select a trial of Microsoft Fabric for 60 day.
+- Created a new workspace named Fatjan Paloja Fabric_Test and selected a trial of Microsoft Fabric for 60 days.
   <br />
   <br />
  ![](Workspace_settings.png)
@@ -48,16 +48,16 @@ As I mention project is quite simple, some of the skills shown in this project a
  ![](LakeHouse.png)
 - Data source
   <br />
-  Add new Data pipeline - TaxiDataPipeline_Directlake
+  Added new Data pipeline - TaxiDataPipeline_Directlake
   <br />
   <br />
 ![](PipelineData.png)
-- Load to Delta table data preview
+- Loaded to Delta table data preview
   <br />
   <br />
   ![](DeltaTablePreview.png)
 
-- Link a Pipeline to Outlook and Teams - on data refresh succes they sent a mesage you write for example "Data is refreshed succesfully"
+- Linked a Pipeline to Outlook and Teams - on data refresh succes they sent a mesage you wrote beforehand, for example "Data is refreshed succesfully"
   <br />
   <br />
   ![](PipelinetoTeams.png)
@@ -77,28 +77,28 @@ As I mention project is quite simple, some of the skills shown in this project a
 
 - Modeling
   <br />
-  Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I have created relationship between Calendar Table and Taxi data on Date columns
+  Connected Power BI desktop to Onelake data hub - LakeHouses preview and loaded data as Direct Query over AS and for calendar table I used SqlBI Bravo tool which has builded for me Calendar Table with DAX (You can use a Calendar Table builded in Dataflow Gen2 also). I created relationship between Calendar Table and Taxi data on Date columns
   <br />
   <br />
 ![](DataModel.png)
 
-- Measures, Calculated Table and Field Parameter
+- Measures, Calculated Table and Field Parameters
   <br />
-  I have used VertiPaq Analyzer to list the measures for showing here. The procedure is open the DaxStudio in Power BI external tools, in advanced tab export metrics, then connect Vertipaq Analyzer to connect to .vpax file.
+  I have used VertiPaq Analyzer to list the measures for showing here. The procedure is to open the DaxStudio in Power BI external tools, in advanced tab export metrics, then connect Vertipaq Analyzer with .vpax file.
   <br />
   <br />
   ![](Measures.png)
 
 ## Visualizations:
 
-  The report is single paged and intended for simplicity of usage. We are measuring five metrics: Fare Amount, Average Trips Amount, Number of Trips, Tip Amount and Total Amount in single page - you can change the metrics in slicer down right also we have a slicer down left for years you want to analyze.
-When you click a particular metrics slicer down right that BAN number which is measured is highlighted. For the color I have chosed #7B88BF to be in harmony with the fictional company logo.
+  The report is single paged and intended for ease of use. We are measuring five metrics: Fare Amount, Average Trips Amount, Count of Trips, Tip Amount and Total Amount in single page - you can change the metrics in the slicer down right, also we have a slicer down left for selecting the years you want to analyze.
+When you click a particular metrics slicer down right, that BAN number which is measured is highlighted. For the color I have choose #7B88BF to be in harmony with the fictional company logo.
   <br />
 
   ![](GifTest.gif)
     <br />
  ## Analysis:
-For seven years of analysis NYC Taxis Company had more than 153 milion trips in total
+By analyzing seven years of data, we see that NYC Taxis Company had more than 153 milion trips in total
 |Year|Trips_#|              
 |:----------|:----------|
 |2013   |2,421,622|
@@ -114,7 +114,7 @@ As we see from data the year 2015 has maximum trips compared to other years with
 <br /> 
 ![](TripsAnalysis.png)
  
-For seven years of analysis NYC Taxis Company had more than 1.90 Bn fare amount in total
+By analyzing seven years of data, we see that NYC Taxis Company had more than 1.90 Bn fare amount in total
 |Year|Fare Amount $|              
 |:----------|:----------|
 |2013   |$ 30,038,429.24|
@@ -130,7 +130,7 @@ As we see from data the year 2015 has maximum fare Amount compared to other year
 ![](FareAmount.png)
 
 
-For seven years of analysis NYC Taxis Company has average of  $ 12.42  dollar per trip
+By analyzing seven years of data, we see that NYC Taxis Company has average of  $ 12.42  dollar per trip
 |Year|Average Amount/Trip $|              
 |:----------|:----------|
 |2013   |$ 12.40|
@@ -146,7 +146,7 @@ As we see from data the year 2019 has greater average per trip compared to other
 ![](AverageTrips.png)
 
 
-For seven years of analysis NYC Taxis Company has in total $ 175.42 Milion dollar tips
+By analyzing seven years of data, we see that NYC Taxis Company has in total $ 175.42 Milion dollar tips
 |Year|Tips Amount $|              
 |:----------|:----------|
 |2013   |$ 2,138,815.32|
@@ -162,7 +162,7 @@ As we see from data the year 2015 has maximum Tips in dollars compared to other 
 ![](Tips.png)
 
 
-For seven years of analysis NYC Taxis Company has more than $ 2.26 Bilion dollar total sales
+By analyzing seven years of data, we see that NYC Taxis Company has more than $ 2.26 Bilion dollar total sales
 |Year|Tips Amount $|              
 |:----------|:----------|
 |2013   |$ 34,549,295.16|
@@ -183,6 +183,6 @@ As we see from data the year 2015 has maximum amount in dollars compared to othe
  
 ## Conclusion
  <br />
-As we see from the data, trips has reached maximum in 2015 and from there we have a decline with every year passes. We have to analyze also some other data from other data source and getting more and deeper insight about Sales Taxi Company.
-This project as I mentioned above was only to experiment with Microsoft Fabric also to showcase some of power bi cappabilities. 
+As we see from the data, trips reached maximum in 2015 and from there we have a decline with every year that passes. We have to analyze also some other data from other data sources and getting more and deeper insights about Sales Taxi Company.
+This project as I mentioned above was only to experiment with Microsoft Fabric also to showcase some of Power BI cappabilities. 
 
