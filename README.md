@@ -17,7 +17,7 @@ Microsoft last couple of month has released a public preview of **Microsoft Fabr
 ## Statement
 
 Simulation:
-Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Direct Query over AS and import as storage mode in Power BI.
+Fictive **Taxi** company want to implement new **Microsoft Fabric** capabilities to their BI analysis. They want real time data analysis so we have agreed to use Lake House Delta tables as Direct lake and PBI desktop Direct Query over AS and import as storage mode in Power BI.
   
 ## BI Requirements
 
