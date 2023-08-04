@@ -130,7 +130,7 @@ As we see from data the year 2015 has maximum fare Amount compared to other year
 ![](FareAmount.png)
 
 
-For seven years of analysis NYC Taxis Company has in total $ 12.42 average dollar per trip
+For seven years of analysis NYC Taxis Company has average of  $ 12.42  dollar per trip
 |Year|Average Amount $|              
 |:----------|:----------|
 |2013   |$ 12.40|
